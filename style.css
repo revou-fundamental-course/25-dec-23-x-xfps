@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Poppins:wght@300;500;600&display=swap');
+h1 {
+    font-family: "inter", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: linear-gradient(90deg, #353A5F 0%, #9EBAF3 100%);
+}
+.segitiga {
+	top: 777px;
+	left: 143px;
+	width: 173.21px;
+	height: 183px;
+	background:rgba(255,255,255,0);
+}
+
+.Welcome {
+    text-align: center;
+    margin-top: 200pt;
+    margin-bottom: -10px;
+}
+
+.Welcome p {
+    margin-bottom: -10px;
+}
+
+.main {
+    position: relative;
+    left: 40%;
+    right: 40%;
+}
