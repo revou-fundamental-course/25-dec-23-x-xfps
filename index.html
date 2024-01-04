@@ -3,23 +3,85 @@
 <head>
 
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
     <div class="Welcome">
-        <h1> Welcome to Katik </h1>
+            <h1><p>Welcome to Katik</p></h1>
+            <h3>
+                <p>sobat, Selamat datan di Katik</p>
+                <p>web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling banggu datar</p>
+            </h3>
     </div>
-    <div>
-        <h3>sobat, Selamat datan di Katik</h3>
-        <div>
-            <h3>web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling banggu datar</h3>
+
+    <div   class="content1">
+        <div class="contentbx">
+            <h2>
+                Jajar Genjang
+            </h2>
+                <img src="picture/segitiga.png" width="300" height="300">
+                <div class="soal">
+                <h6>
+                    Rumus Luas Segitiga Yaitu :
+                </h6>
+                    <div>
+                        <h4>
+                            L = 1/2 x a x t 
+                        </h4>
+                        <h3>
+                            <p>Di mana :</p>
+                            <ul>
+                                <li>L = Luas</li>
+                                <li>a = Panjang Alas</li>
+                                <li>t = Nilai Tinggi</li>
+                            </ul>
+                        </h3>
+                    </div>
+            </div>    
         </div>
+        <input type="number" id="alas" placeholder="Masukkan nilai alas">
+        <input type="number" id="tinggi" placeholder="Masukkan nilai tinggi"><br><br>
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <button onclick="resetForm()">Reset</button><br><br>
+
+        <h5>Hasil: <span id="hasil"></span></h5>
+
+    <div   class="content2">
+        <div class="contentbx">
+            <h2>
+                Jajar Genjang
+            </h2>
+                <img src="picture/segitiga.png" width="300" height="300">
+                <div class="soal">
+                <h6>
+                    Rumus Keling Segitiga :
+                </h6>
+                    <div>
+                        <h4>
+                            K = S1 * S2 * S3 
+                        </h4>
+                        <h3>
+                            <p>Di mana :</p>
+                            <ul>
+                                <li>K = Keling</li>
+                                <li>S1 = sisiA</li>
+                                <li>S2 = sisiB</li>
+                                <li>S3 = sisiC</li>
+                            </ul>
+                        </h3>
+                    </div>
+            </div>    
+        </div>
+        <input type="number" id="sisiA" placeholder="Masukkan nilai Sisi A">
+        <input type="number" id="sisiB" placeholder="Masukkan nilai Sisi B">
+        <input type="number" id="sisiC" placeholder="Masukkan nilai Sisi C"><br><br>
+        <button onclick="hitungKeliling()">Hitung keliling</button>
+        <button onclick="resetForm()">Reset</button><br><br>
+
+        <h5>Hasil: <span id="hasil2"></span></h5>
     </div>
-    <div>
-        <h2>Jajar Genjang</h2>
-    </div>
-    <img src="segitiga.png">
-    
+
+    <script src="js/script.js"></script>
 </body>
 </html>
